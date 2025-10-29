@@ -1,0 +1,110 @@
+body {
+  background-color: lavenderblush;
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+#container {
+  width: 900px;
+  margin: 20px auto;
+  background-color: white;
+  border: 1px solid white;
+  padding: 10px;
+}
+
+/* Header */
+header {
+  background-color: lightcyan;
+  padding: 15px;
+  border-bottom: 3px solid #9ed7de;
+  text-align: center;
+}
+
+header h1 {
+  margin: 0;
+  color: #228b8b;
+  font-family: 'Trebuchet MS', sans-serif;
+}
+
+header p {
+  color: turquoise;
+  font-style: italic;
+  margin: 0;
+}
+
+/* Sidebar */
+#sidebar {
+  float: left;
+  width: 200px;
+  background-color: darkturquoise;
+  border: 6px solid darkcyan;
+  padding: 7px;
+  margin-top: 10px;
+  font-weight: 200;
+}
+
+#sidebar h2 {
+  color: cyan;
+  font-weight: 200;
+  font-size: 28px;
+  text-align: left;
+   margin-left: 5px ;
+}
+
+#sidebar ul {
+  list-style-type: circle;
+  padding-left: 20px;
+}
+
+#sidebar li {
+  color: darkcyan;
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+
+/* Main Content */
+#content {
+  margin-left: 230px;
+  padding: 10px;
+}
+
+/* Journal Entries */
+.entry {
+  border: 2px solid turquoise;
+  background-color: lightcyan;
+  padding: 10px;
+  margin-bottom: 15px;
+  overflow: auto;
+}
+.img1{
+  display: flex;
+}
+.img2{
+  display: flex;
+}
+.entry h3 {
+  color: #0099a0;
+  border-bottom: 1px solid lightcyan;
+  padding-bottom: 5px;
+  margin-bottom: 10px;
+}
+
+.entry span {
+  font-weight: bold;
+}
+
+.entry p {
+  font-size: 14px;
+  line-height: 1.5;
+  color: red
+;
+}
+
+.entry img {
+  float: right;
+  width: 150px;
+  border: 1px solid lightgray;
+  margin-left: 10px;
+  border-radius: 5px;
+}
